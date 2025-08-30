@@ -126,6 +126,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
+				ORGANIZATIONNAME = genysis.inc;
 				TargetAttributes = {
 					08143C052E63667A004873C5 = {
 						CreatedOnToolsVersion = 16.4;

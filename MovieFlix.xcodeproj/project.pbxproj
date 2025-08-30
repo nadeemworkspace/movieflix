@@ -6,17 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		08143C422E636CCB004873C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08143C3F2E636CCB004873C5 /* ContentView.swift */; };
+		08143C432E636CCB004873C5 /* MovieFlixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08143C402E636CCB004873C5 /* MovieFlixApp.swift */; };
+		08143C442E636CCB004873C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08143C3E2E636CCB004873C5 /* Assets.xcassets */; };
+		08143C4D2E636CFB004873C5 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08143C472E636CFB004873C5 /* Poppins-Black.ttf */; };
+		08143C4E2E636CFB004873C5 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08143C492E636CFB004873C5 /* Poppins-ExtraLight.ttf */; };
+		08143C4F2E636CFB004873C5 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08143C4B2E636CFB004873C5 /* Poppins-SemiBold.ttf */; };
+		08143C502E636CFB004873C5 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08143C4C2E636CFB004873C5 /* Poppins-Thin.ttf */; };
+		08143C512E636CFB004873C5 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08143C482E636CFB004873C5 /* Poppins-Bold.ttf */; };
+		08143C522E636CFB004873C5 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08143C4A2E636CFB004873C5 /* Poppins-Medium.ttf */; };
+		08143C542E636D1D004873C5 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08143C532E636D1D004873C5 /* AppFont.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		08143C062E63667A004873C5 /* MovieFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08143C3E2E636CCB004873C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08143C3F2E636CCB004873C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		08143C402E636CCB004873C5 /* MovieFlixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieFlixApp.swift; sourceTree = "<group>"; };
+		08143C472E636CFB004873C5 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		08143C482E636CFB004873C5 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		08143C492E636CFB004873C5 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		08143C4A2E636CFB004873C5 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		08143C4B2E636CFB004873C5 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		08143C4C2E636CFB004873C5 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		08143C532E636D1D004873C5 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
+		08143C552E636D4A004873C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		08143C082E63667A004873C5 /* MovieFlix */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MovieFlix;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		08143C032E63667A004873C5 /* Frameworks */ = {
@@ -32,7 +48,7 @@
 		08143BFD2E636679004873C5 = {
 			isa = PBXGroup;
 			children = (
-				08143C082E63667A004873C5 /* MovieFlix */,
+				08143C412E636CCB004873C5 /* MovieFlix */,
 				08143C072E63667A004873C5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +59,40 @@
 				08143C062E63667A004873C5 /* MovieFlix.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		08143C412E636CCB004873C5 /* MovieFlix */ = {
+			isa = PBXGroup;
+			children = (
+				08143C402E636CCB004873C5 /* MovieFlixApp.swift */,
+				08143C3F2E636CCB004873C5 /* ContentView.swift */,
+				08143C3E2E636CCB004873C5 /* Assets.xcassets */,
+				08143C552E636D4A004873C5 /* Info.plist */,
+				08143C452E636CD0004873C5 /* Extensions */,
+				08143C462E636CE0004873C5 /* Fonts */,
+			);
+			path = MovieFlix;
+			sourceTree = "<group>";
+		};
+		08143C452E636CD0004873C5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				08143C532E636D1D004873C5 /* AppFont.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		08143C462E636CE0004873C5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				08143C472E636CFB004873C5 /* Poppins-Black.ttf */,
+				08143C482E636CFB004873C5 /* Poppins-Bold.ttf */,
+				08143C492E636CFB004873C5 /* Poppins-ExtraLight.ttf */,
+				08143C4A2E636CFB004873C5 /* Poppins-Medium.ttf */,
+				08143C4B2E636CFB004873C5 /* Poppins-SemiBold.ttf */,
+				08143C4C2E636CFB004873C5 /* Poppins-Thin.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +109,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				08143C082E63667A004873C5 /* MovieFlix */,
 			);
 			name = MovieFlix;
 			packageProductDependencies = (
@@ -109,6 +156,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08143C4D2E636CFB004873C5 /* Poppins-Black.ttf in Resources */,
+				08143C4E2E636CFB004873C5 /* Poppins-ExtraLight.ttf in Resources */,
+				08143C4F2E636CFB004873C5 /* Poppins-SemiBold.ttf in Resources */,
+				08143C502E636CFB004873C5 /* Poppins-Thin.ttf in Resources */,
+				08143C512E636CFB004873C5 /* Poppins-Bold.ttf in Resources */,
+				08143C522E636CFB004873C5 /* Poppins-Medium.ttf in Resources */,
+				08143C442E636CCB004873C5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +173,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08143C422E636CCB004873C5 /* ContentView.swift in Sources */,
+				08143C432E636CCB004873C5 /* MovieFlixApp.swift in Sources */,
+				08143C542E636D1D004873C5 /* AppFont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +310,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovieFlix/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,6 +338,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovieFlix/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

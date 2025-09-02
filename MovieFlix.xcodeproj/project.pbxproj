@@ -24,6 +24,7 @@
 		08143C7E2E649072004873C5 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 08143C7D2E649072004873C5 /* FirebaseCrashlytics */; };
 		08143C812E64D896004873C5 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08143C7F2E64D896004873C5 /* Poppins-Light.ttf */; };
 		08143C822E64D896004873C5 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08143C802E64D896004873C5 /* Poppins-Regular.ttf */; };
+		08143C842E6741E3004873C5 /* LoginHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08143C832E6741E3004873C5 /* LoginHomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		08143C762E647EF6004873C5 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		08143C7F2E64D896004873C5 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
 		08143C802E64D896004873C5 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		08143C832E6741E3004873C5 /* LoginHomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginHomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		08143C5B2E637868004873C5 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				08143C832E6741E3004873C5 /* LoginHomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			files = (
 				08143C592E637854004873C5 /* LoginView.swift in Sources */,
 				08143C432E636CCB004873C5 /* MovieFlixApp.swift in Sources */,
+				08143C842E6741E3004873C5 /* LoginHomeViewModel.swift in Sources */,
 				08143C542E636D1D004873C5 /* AppFont.swift in Sources */,
 				08143C772E647EF6004873C5 /* CustomTextField.swift in Sources */,
 			);

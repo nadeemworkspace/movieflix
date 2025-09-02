@@ -10,8 +10,7 @@ import SwiftUI
 
 struct LoginView: View {
     
-    @State private var email: String = ""
-    @State private var password: String = ""
+    @StateObject private var viewModel = LoginHomeViewModel()
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -47,7 +46,7 @@ extension LoginView {
                         .font(.poppins(.medium, size: 12))
                     
                     Button {
-                        print("Sign up clicked")
+                        viewModel.moveToSignUp = true
                     } label: {
                         Text("Sign Up")
                             .font(.poppins(.medium, size: 12))
@@ -74,9 +73,9 @@ extension LoginView {
         VStack {
             VStack(spacing: 16) {
                 // Email
-                CustomTextField(text: $email, title: "Email", keyboard: .emailAddress)
+                CustomTextField(text: $viewModel.email, title: "Email", keyboard: .emailAddress)
                 // Password
-                CustomTextField(text: $password, title: "Password", keyboard: .asciiCapable)
+                CustomTextField(text: $viewModel.password, title: "Password", keyboard: .asciiCapable)
                 // Remember Me / Forgot Password
                 HStack(alignment: .center) {
                     Button {
@@ -95,6 +94,7 @@ extension LoginView {
                     Spacer()
                     Button {
                         print("Forgot password Clicked")
+                        viewModel.forgotPassword = true
                     } label: {
                         Text("Forgot password ?")
                             .foregroundStyle(.darkBlue)
@@ -104,6 +104,7 @@ extension LoginView {
                 
                 Button {
                     print("Login clicked")
+                    viewModel.moveToLanding = true
                 } label: {
                     Text("Log In")
                         .font(.poppins(.medium, size: 14))
@@ -129,10 +130,10 @@ extension LoginView {
                 // Login with other providers
                 HStack(alignment: .center, spacing: 16) {
                     loginProviderButton("Facebook", icon: "facebook") {
-                        print("Apple icon clicked")
+                        print("TODO :::: Apple icon clicked")
                     }
                     loginProviderButton("Google", icon: "google") {
-                        print("Google icon clicked")
+                        print("TODO :::: Google icon clicked")
                     }
                 }
                 .padding(.vertical, 10)
@@ -154,8 +155,7 @@ extension LoginView {
     }
     
     @ViewBuilder
-    private func loginProviderButton(_ provider: String, icon: String,
-                                     action: @escaping () -> Void) -> some View {
+    private func loginProviderButton(_ provider: String, icon: String, action: @escaping () -> Void) -> some View {
         Button {
             action()
         } label: {

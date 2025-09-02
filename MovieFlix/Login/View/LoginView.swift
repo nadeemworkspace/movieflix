@@ -11,6 +11,7 @@ import SwiftUI
 struct LoginView: View {
     
     @State private var email: String = ""
+    @State private var password: String = ""
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -75,16 +76,20 @@ extension LoginView {
                 // Email
                 CustomTextField(text: $email, title: "Email", keyboard: .emailAddress)
                 // Password
-                CustomTextField(text: $email, title: "Password", keyboard: .emailAddress)
+                CustomTextField(text: $password, title: "Password", keyboard: .asciiCapable)
                 // Remember Me / Forgot Password
                 HStack(alignment: .center) {
                     Button {
                         print("Remember me Clicked")
                     } label: {
-                        HStack {
+                        HStack(alignment: .center, spacing: 5) {
+                            Image(.checkbox)
+                                .resizable()
+                                .scaledToFit()
+                                .frame(width: 19, height: 19)
                             Text("Remember me")
                                 .foregroundStyle(.gray)
-                                .font(.poppins(.medium, size: 12))
+                                .font(.poppins(.semiBold, size: 12))
                         }
                     }
                     Spacer()
@@ -93,7 +98,7 @@ extension LoginView {
                     } label: {
                         Text("Forgot password ?")
                             .foregroundStyle(.darkBlue)
-                            .font(.poppins(.medium, size: 12))
+                            .font(.poppins(.semiBold, size: 12))
                     }
                 }
                 
@@ -112,10 +117,12 @@ extension LoginView {
                 
                 HStack(spacing: 10) {
                     Rectangle()
+                        .fill(.gray.opacity(0.5))
                         .frame(height: 1)
                     Text("Or login with")
-                        .font(.poppins(.medium, size: 12))
+                        .font(.poppins(.semiBold, size: 12))
                     Rectangle()
+                        .fill(.gray.opacity(0.5))
                         .frame(height: 1)
                 }
                 .foregroundStyle(.gray.opacity(0.5))

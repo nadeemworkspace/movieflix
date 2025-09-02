@@ -18,17 +18,12 @@
 		08143C542E636D1D004873C5 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08143C532E636D1D004873C5 /* AppFont.swift */; };
 		08143C592E637854004873C5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08143C582E637854004873C5 /* LoginView.swift */; };
 		08143C5D2E647219004873C5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08143C5C2E647219004873C5 /* GoogleService-Info.plist */; };
-		08143C602E647301004873C5 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 08143C5F2E647301004873C5 /* FirebaseAnalytics */; };
-		08143C622E647301004873C5 /* FirebaseAnalyticsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 08143C612E647301004873C5 /* FirebaseAnalyticsCore */; };
-		08143C642E647301004873C5 /* FirebaseAnalyticsIdentitySupport in Frameworks */ = {isa = PBXBuildFile; productRef = 08143C632E647301004873C5 /* FirebaseAnalyticsIdentitySupport */; };
-		08143C662E647301004873C5 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 08143C652E647301004873C5 /* FirebaseAppCheck */; };
-		08143C682E647301004873C5 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 08143C672E647301004873C5 /* FirebaseAuth */; };
-		08143C6A2E647301004873C5 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 08143C692E647301004873C5 /* FirebaseAuthCombine-Community */; };
-		08143C6C2E647301004873C5 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 08143C6B2E647301004873C5 /* FirebaseCore */; };
-		08143C6E2E647301004873C5 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 08143C6D2E647301004873C5 /* FirebaseCrashlytics */; };
-		08143C702E647301004873C5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 08143C6F2E647301004873C5 /* FirebaseFirestore */; };
-		08143C722E647301004873C5 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 08143C712E647301004873C5 /* FirebasePerformance */; };
-		08143C742E647301004873C5 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 08143C732E647301004873C5 /* FirebaseRemoteConfig */; };
+		08143C772E647EF6004873C5 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08143C762E647EF6004873C5 /* CustomTextField.swift */; };
+		08143C7A2E649072004873C5 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 08143C792E649072004873C5 /* FirebaseAnalytics */; };
+		08143C7C2E649072004873C5 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 08143C7B2E649072004873C5 /* FirebaseAuth */; };
+		08143C7E2E649072004873C5 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 08143C7D2E649072004873C5 /* FirebaseCrashlytics */; };
+		08143C812E64D896004873C5 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08143C7F2E64D896004873C5 /* Poppins-Light.ttf */; };
+		08143C822E64D896004873C5 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08143C802E64D896004873C5 /* Poppins-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +40,9 @@
 		08143C552E636D4A004873C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08143C582E637854004873C5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		08143C5C2E647219004873C5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		08143C762E647EF6004873C5 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		08143C7F2E64D896004873C5 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		08143C802E64D896004873C5 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,17 +50,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08143C742E647301004873C5 /* FirebaseRemoteConfig in Frameworks */,
-				08143C662E647301004873C5 /* FirebaseAppCheck in Frameworks */,
-				08143C6A2E647301004873C5 /* FirebaseAuthCombine-Community in Frameworks */,
-				08143C722E647301004873C5 /* FirebasePerformance in Frameworks */,
-				08143C682E647301004873C5 /* FirebaseAuth in Frameworks */,
-				08143C602E647301004873C5 /* FirebaseAnalytics in Frameworks */,
-				08143C6C2E647301004873C5 /* FirebaseCore in Frameworks */,
-				08143C702E647301004873C5 /* FirebaseFirestore in Frameworks */,
-				08143C6E2E647301004873C5 /* FirebaseCrashlytics in Frameworks */,
-				08143C622E647301004873C5 /* FirebaseAnalyticsCore in Frameworks */,
-				08143C642E647301004873C5 /* FirebaseAnalyticsIdentitySupport in Frameworks */,
+				08143C7E2E649072004873C5 /* FirebaseCrashlytics in Frameworks */,
+				08143C7A2E649072004873C5 /* FirebaseAnalytics in Frameworks */,
+				08143C7C2E649072004873C5 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,11 +80,12 @@
 			children = (
 				08143C562E63782D004873C5 /* App */,
 				08143C572E63783E004873C5 /* Login */,
+				08143C752E647EAE004873C5 /* Components */,
+				08143C452E636CD0004873C5 /* Extensions */,
+				08143C462E636CE0004873C5 /* Fonts */,
 				08143C3E2E636CCB004873C5 /* Assets.xcassets */,
 				08143C552E636D4A004873C5 /* Info.plist */,
 				08143C5C2E647219004873C5 /* GoogleService-Info.plist */,
-				08143C452E636CD0004873C5 /* Extensions */,
-				08143C462E636CE0004873C5 /* Fonts */,
 			);
 			path = MovieFlix;
 			sourceTree = "<group>";
@@ -110,6 +101,8 @@
 		08143C462E636CE0004873C5 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				08143C7F2E64D896004873C5 /* Poppins-Light.ttf */,
+				08143C802E64D896004873C5 /* Poppins-Regular.ttf */,
 				08143C472E636CFB004873C5 /* Poppins-Black.ttf */,
 				08143C482E636CFB004873C5 /* Poppins-Bold.ttf */,
 				08143C492E636CFB004873C5 /* Poppins-ExtraLight.ttf */,
@@ -152,6 +145,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		08143C752E647EAE004873C5 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				08143C762E647EF6004873C5 /* CustomTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -169,17 +170,9 @@
 			);
 			name = MovieFlix;
 			packageProductDependencies = (
-				08143C5F2E647301004873C5 /* FirebaseAnalytics */,
-				08143C612E647301004873C5 /* FirebaseAnalyticsCore */,
-				08143C632E647301004873C5 /* FirebaseAnalyticsIdentitySupport */,
-				08143C652E647301004873C5 /* FirebaseAppCheck */,
-				08143C672E647301004873C5 /* FirebaseAuth */,
-				08143C692E647301004873C5 /* FirebaseAuthCombine-Community */,
-				08143C6B2E647301004873C5 /* FirebaseCore */,
-				08143C6D2E647301004873C5 /* FirebaseCrashlytics */,
-				08143C6F2E647301004873C5 /* FirebaseFirestore */,
-				08143C712E647301004873C5 /* FirebasePerformance */,
-				08143C732E647301004873C5 /* FirebaseRemoteConfig */,
+				08143C792E649072004873C5 /* FirebaseAnalytics */,
+				08143C7B2E649072004873C5 /* FirebaseAuth */,
+				08143C7D2E649072004873C5 /* FirebaseCrashlytics */,
 			);
 			productName = MovieFlix;
 			productReference = 08143C062E63667A004873C5 /* MovieFlix.app */;
@@ -211,7 +204,7 @@
 			mainGroup = 08143BFD2E636679004873C5;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				08143C5E2E647301004873C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				08143C782E649072004873C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 08143C072E63667A004873C5 /* Products */;
@@ -228,6 +221,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08143C812E64D896004873C5 /* Poppins-Light.ttf in Resources */,
+				08143C822E64D896004873C5 /* Poppins-Regular.ttf in Resources */,
 				08143C4D2E636CFB004873C5 /* Poppins-Black.ttf in Resources */,
 				08143C5D2E647219004873C5 /* GoogleService-Info.plist in Resources */,
 				08143C4E2E636CFB004873C5 /* Poppins-ExtraLight.ttf in Resources */,
@@ -249,6 +244,7 @@
 				08143C592E637854004873C5 /* LoginView.swift in Sources */,
 				08143C432E636CCB004873C5 /* MovieFlixApp.swift in Sources */,
 				08143C542E636D1D004873C5 /* AppFont.swift in Sources */,
+				08143C772E647EF6004873C5 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,7 +384,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -416,7 +413,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +452,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		08143C5E2E647301004873C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		08143C782E649072004873C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
 			requirement = {
@@ -465,60 +463,20 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		08143C5F2E647301004873C5 /* FirebaseAnalytics */ = {
+		08143C792E649072004873C5 /* FirebaseAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 08143C5E2E647301004873C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 08143C782E649072004873C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAnalytics;
 		};
-		08143C612E647301004873C5 /* FirebaseAnalyticsCore */ = {
+		08143C7B2E649072004873C5 /* FirebaseAuth */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 08143C5E2E647301004873C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsCore;
-		};
-		08143C632E647301004873C5 /* FirebaseAnalyticsIdentitySupport */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 08143C5E2E647301004873C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsIdentitySupport;
-		};
-		08143C652E647301004873C5 /* FirebaseAppCheck */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 08143C5E2E647301004873C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAppCheck;
-		};
-		08143C672E647301004873C5 /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 08143C5E2E647301004873C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 08143C782E649072004873C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
 		};
-		08143C692E647301004873C5 /* FirebaseAuthCombine-Community */ = {
+		08143C7D2E649072004873C5 /* FirebaseCrashlytics */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 08143C5E2E647301004873C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = "FirebaseAuthCombine-Community";
-		};
-		08143C6B2E647301004873C5 /* FirebaseCore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 08143C5E2E647301004873C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseCore;
-		};
-		08143C6D2E647301004873C5 /* FirebaseCrashlytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 08143C5E2E647301004873C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 08143C782E649072004873C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseCrashlytics;
-		};
-		08143C6F2E647301004873C5 /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 08143C5E2E647301004873C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestore;
-		};
-		08143C712E647301004873C5 /* FirebasePerformance */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 08143C5E2E647301004873C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebasePerformance;
-		};
-		08143C732E647301004873C5 /* FirebaseRemoteConfig */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 08143C5E2E647301004873C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseRemoteConfig;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

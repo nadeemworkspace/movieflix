@@ -14,6 +14,8 @@ enum AppFont: String {
     case medium     = "Poppins-Medium"
     case semiBold   = "Poppins-SemiBold"
     case thin       = "Poppins-Thin"
+    case regular    = "Poppins-Regular"
+    case light      = "Poppins-Light"
 }
 
 extension Font {

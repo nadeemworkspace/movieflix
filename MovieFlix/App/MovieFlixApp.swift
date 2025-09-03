@@ -6,26 +6,31 @@
 //
 
 import SwiftUI
-import FirebaseCore
+//import FirebaseCore
 
-class AppDelegate: NSObject, UIApplicationDelegate {
-    
-  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-    FirebaseApp.configure()
-    return true
-  }
-    
-}
+//class AppDelegate: NSObject, UIApplicationDelegate {
+//    
+//  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+//    FirebaseApp.configure()
+//    return true
+//  }
+//    
+//}
 
 @main
 struct MovieFlixApp: App {
     
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+//    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @AppStorage(UserDefaultsKeys.isLoggedIn.rawValue) var isLoggedIn: Bool = false
     
     var body: some Scene {
         WindowGroup {
             NavigationStack {
-                LoginView()
+                if isLoggedIn {
+                    LandingHomeView()
+                } else {
+                    LandingHomeView()
+                }
             }
         }
     }
